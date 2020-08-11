@@ -1,17 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDom from "react-dom";
+import "./index.css";
+import pic34 from "./images/Group 2.png";
+import pic22 from "./images/Group 2.png";
+import pic56 from "./images/Group 2.png";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+//adding props
+const Person = ({ img, name, job, children }) => {
+  //using template litrals
+  // const url = `https://randomuser.me/api/portraits/thumb/men/${img}.jpg`;
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+  return (
+    < article className="person">
+      {/* <img src={url} alt=""></img> */}
+      <h4>{name}</h4>
+      <h4>{job}</h4>
+      {children}
+    </article >
+  );
+};
+
+//now to create a component
+const PersonList = () => {
+  return (
+    <section className="person-list">
+      <Person img="34" name="Khekheli" job="Web Developer">
+        <img src={pic34}></img>
+      </Person>
+      <Person img="22" name="Enam" job="Personal Trainer">
+        <img src={pic22}></img>
+      </Person>
+      <Person img="56" name="Dennis" job="Accountant">
+        <img src={pic56}></img>
+        <p>lorem</p>
+      </Person>
+    </section>
+  );
+};
+
+ReactDom.render(<PersonList></PersonList>, document.getElementById("root"));
