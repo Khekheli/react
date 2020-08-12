@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.0e495df5.chunk.css",
-    "main.js": "/react/static/js/main.4af9437a.chunk.js",
-    "main.js.map": "/react/static/js/main.4af9437a.chunk.js.map",
+    "main.css": "/react/static/css/main.fa683e8d.chunk.css",
+    "main.js": "/react/static/js/main.47670e40.chunk.js",
+    "main.js.map": "/react/static/js/main.47670e40.chunk.js.map",
     "runtime-main.js": "/react/static/js/runtime-main.5faf2419.js",
     "runtime-main.js.map": "/react/static/js/runtime-main.5faf2419.js.map",
-    "static/js/2.358c5e1f.chunk.js": "/react/static/js/2.358c5e1f.chunk.js",
-    "static/js/2.358c5e1f.chunk.js.map": "/react/static/js/2.358c5e1f.chunk.js.map",
+    "static/js/2.3fb98c22.chunk.js": "/react/static/js/2.3fb98c22.chunk.js",
+    "static/js/2.3fb98c22.chunk.js.map": "/react/static/js/2.3fb98c22.chunk.js.map",
     "index.html": "/react/index.html",
-    "precache-manifest.7e48ffb6cc45953a5d111f75436665f8.js": "/react/precache-manifest.7e48ffb6cc45953a5d111f75436665f8.js",
+    "precache-manifest.5111d3c7cd28d3a591efea97f848906a.js": "/react/precache-manifest.5111d3c7cd28d3a591efea97f848906a.js",
     "service-worker.js": "/react/service-worker.js",
-    "static/css/main.0e495df5.chunk.css.map": "/react/static/css/main.0e495df5.chunk.css.map",
-    "static/js/2.358c5e1f.chunk.js.LICENSE.txt": "/react/static/js/2.358c5e1f.chunk.js.LICENSE.txt"
+    "static/css/main.fa683e8d.chunk.css.map": "/react/static/css/main.fa683e8d.chunk.css.map",
+    "static/js/2.3fb98c22.chunk.js.LICENSE.txt": "/react/static/js/2.3fb98c22.chunk.js.LICENSE.txt",
+    "static/media/esposito.png": "/react/static/media/esposito.70434404.png",
+    "static/media/ianis.png": "/react/static/media/ianis.0a06f7bf.png",
+    "static/media/ihattaren.png": "/react/static/media/ihattaren.091a2811.png",
+    "static/media/jude.png": "/react/static/media/jude.701f4dc0.png",
+    "static/media/kai.png": "/react/static/media/kai.c8ba047f.png",
+    "static/media/marin.png": "/react/static/media/marin.b19e223f.png",
+    "static/media/pinamonti.png": "/react/static/media/pinamonti.b94c6b6e.png",
+    "static/media/rodrygo.png": "/react/static/media/rodrygo.d4fe415c.png",
+    "static/media/zaracho.png": "/react/static/media/zaracho.5ee8babe.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5faf2419.js",
-    "static/js/2.358c5e1f.chunk.js",
-    "static/css/main.0e495df5.chunk.css",
-    "static/js/main.4af9437a.chunk.js"
+    "static/js/2.3fb98c22.chunk.js",
+    "static/css/main.fa683e8d.chunk.css",
+    "static/js/main.47670e40.chunk.js"
   ]
 }
