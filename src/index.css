@@ -10,7 +10,7 @@
   width: 17rem;
   padding: 1rem;
   margin: 2rem auto;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   text-align: center;
   cursor: pointer;
   transition: all 0.3s linear;
@@ -34,7 +34,7 @@
 
 .person-list{
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: row;
 }
 
 @media screen and (max-width:768px){
